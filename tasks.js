@@ -22,10 +22,13 @@ $(document).on('ready', function(){
 
 	$('#save-button').on('click', function(event){
 		var list = $('ol').html();
-		localStorage.setItem('Ignacio', list);
+		localStorage.setItem(user, list);
 	});
 
 	//run on page load
-	if(localStorage.getItem('Ignacio')){
-		$('ol').append(localStorage.getItem('Ignacio'));
+	if(localStorage.getItem(user)){
+		$('ol').append(localStorage.getItem(user));
 	};});
+
+	var user = prompt("Enter a username: ");
+	$('title, h1').text(user + "'s Tasks");
