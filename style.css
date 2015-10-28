@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 }
 
-button, textarea {
+button, textarea, ol {
 	width: 270px;
 	margin: 1% auto;
 	display: block;
