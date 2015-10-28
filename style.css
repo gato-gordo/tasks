@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+}
+
+button, textarea {
+	width: 270px;
+	margin: 1% auto;
+	display: block;
+}
+
+button {
+	height: 40px;
+}
