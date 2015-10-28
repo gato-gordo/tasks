@@ -2,7 +2,7 @@ h1 {
 	text-align: center;
 }
 
-button, textarea, ol {
+button, textarea, ol, #flash {
 	width: 270px;
 	margin: 1% auto;
 	display: block;
@@ -10,4 +10,21 @@ button, textarea, ol {
 
 button {
 	height: 40px;
+}
+
+ol {
+	margin-bottom: 5%;
+}
+
+li, button {
+	cursor: pointer;
+}
+
+li {
+	height: 40px;
+}
+
+#flash {
+	opacity: 0;
+	color: red;
 }
