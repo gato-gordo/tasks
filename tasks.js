@@ -26,9 +26,9 @@ $(document).on('ready', function(){
 	});
 
 	//run on page load
+	var user = prompt("Enter a username: ");
 	if(localStorage.getItem(user)){
 		$('ol').append(localStorage.getItem(user));
-	};});
-
-	var user = prompt("Enter a username: ");
+	};
 	$('title, h1').text(user + "'s Tasks");
+});
