@@ -44,6 +44,8 @@ Event handler: http://api.jquery.com/on/
 
 Append html: http://api.jquery.com/append/
 
+Grab value of inputs: http://api.jquery.com/val/
+
 **STEP 5 LINKS AND HINTS**
 
 Animate: http://api.jquery.com/animate/
